@@ -21,7 +21,7 @@ const WelcomeScreen = ({ navigation }) => {
         to hear your experience with us!
       </Text>
       <Pressable onPress={() => navigation.navigate('Login')}>
-        <Text style={styles.buttonText}>View Menu</Text>
+        <Text style={styles.buttonText}>Back To Login</Text>
       </Pressable>
     </ScrollView>
   );
@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
     color: 'black',
     textAlign: 'center',
     fontSize: 25,
+    color: 'white'
   },
   headerText: {
     paddingRight: 10,
